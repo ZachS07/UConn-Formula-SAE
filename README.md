@@ -15,3 +15,7 @@ I'm working with two others on the full design process, including figuring out h
 This project also includes designing a BMS PCB in Altium around the LTC6811. The BMS will keep track of the cells, balance their voltages, and help protect the battery pack. It will also include a UART-to-CAN for communication with other parts of the car.
 
 Things are constantly changing, but I'll be updating this repo as the project progresses with my calculations, design decisions, schematics, PCB work, and eventually the finished pack.
+
+## Project Documentation
+
+- [LV Battery Pack CAD Design](CAD.md)
