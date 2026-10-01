@@ -19,3 +19,4 @@ Things are constantly changing, but I'll be updating this repo as the project pr
 ## Project Documentation
 
 - [LV Battery Pack CAD Design](CAD.md)
+- [Initial UART-to-CAN Converter Design](UART_CAN.md)
