@@ -10,7 +10,7 @@ So far, we've been working on the initial schematics in Altium, including the mi
 
 The next steps include finalizing the schematics, designing the PCB, programming the microcontroller, and testing the system.
 
-### Project Documentation
+## Project Documentation
 
-- [MCU, CAN, and Power Regulation Schematics](Solid-State-PDM/Power%20Schematics.png)
-- [PROFET Power Switching Schematics](Solid-State-PDM/PROFET.png)
+- [MCU, CAN, and Power Regulation Schematics](Power_Schematics.md)
+- [PROFET Switching Schematics](PROFET_Schematics.md)
