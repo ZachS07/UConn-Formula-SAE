@@ -21,8 +21,8 @@ There's still more work to do, including finalizing the schematics, designing th
 
 ### PDM Project Documentation
 
-- [MCU, CAN, and Power Regulation Schematics](Solid-State-PDM/Power%20Schematics.png)
-- [PROFET Power Switching Schematics](Solid-State-PDM/PROFET.png)
+- [MCU, CAN, and Power Regulation Schematics](Solid-State-PDM/Power_Schematics.md)
+- [PROFET Switching Schematics](Solid-State-PDM/PROFET_Schematics.md)
 
 ---
 
