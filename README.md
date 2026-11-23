@@ -1,3 +1,4 @@
+
 # UConn Formula SAE
 
 An overview of my work in the EV section of UConn Formula SAE, a top-5 FSAE team.
@@ -6,17 +7,40 @@ An overview of my work in the EV section of UConn Formula SAE, a top-5 FSAE team
 
 ## What I'm Working On
 
-As a new member of the team, my project is to help design and build a custom low-voltage battery pack for our EV.
+### Solid-State Power Distribution Module (SSPDM)
 
-The pack will be around 24V and 10Ah and will power the lower-voltage electronics on the car, like the BMS, dashboard, sensors, and pumps.
+My current project on the team is helping design a Solid-State Power Distribution Module (PDM) for our EV.
 
-I'm working with two others on the full design process, including figuring out how many battery cells we need, how they should be connected, what protection the pack needs, and how we're going to monitor the individual cells.
+Right now, the car uses traditional fuses to protect its low-voltage electronics. While these work, they have to be replaced whenever they blow, and they don't tell us much about what caused the issue. The goal of this project is to replace those fuses with electronic switches that can shut off power when something goes wrong and help us figure out what caused it.
 
-This project also includes designing a BMS PCB in Altium around the LTC6811. The BMS will keep track of the cells, balance their voltages, and help protect the battery pack. It will also include a UART-to-CAN for communication with other parts of the car.
+The PDM will have six separate output channels, each designed to support loads under 4A. We're using an STM32 microcontroller to control the switches, monitor the current going through each channel, and send information about the system through CAN.
 
-Things are constantly changing, but I'll be updating this repo as the project progresses with my calculations, design decisions, schematics, PCB work, and eventually the finished pack.
+So far, we've been working on the initial schematics in Altium, including the microcontroller, power regulation, CAN communication, and PROFET switches.
 
-## Project Documentation
+There's still more work to do, including finalizing the schematics, designing the PCB, programming the microcontroller, and eventually testing everything on the car.
+
+### Project Documentation
+
+- [MCU, CAN, and Power Regulation Schematics](Power%20Schematics.png)
+- [PROFET Power Switching Schematics](PROFET.png)
+
+---
+
+## Previous Project
+
+### Low-Voltage Battery Pack
+
+My first project on the team was helping design a custom low-voltage battery pack for our EV.
+
+The pack was planned to be around 24V and 10Ah and would power the lower-voltage electronics on the car, like the BMS, dashboard, sensors, and pumps.
+
+I was working with two others on the design process, including figuring out how many battery cells we needed, how they should be connected, what protection the pack needed, and how we were going to monitor the individual cells.
+
+The project also involved designing a battery pack layout in Onshape and an initial UART-to-CAN converter in Altium for communication between the BMS and other parts of the car.
+
+Due to changes in team priorities and budget, we had to stop working on the battery pack before it was finished. I'm keeping the work here to show the progress we made before the project was discontinued.
+
+### Project Documentation
 
 - [LV Battery Pack CAD Design](CAD.md)
 - [Initial UART-to-CAN Converter Design](UART_CAN.md)
