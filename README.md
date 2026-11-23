@@ -19,10 +19,10 @@ So far, we've been working on the initial schematics in Altium, including the mi
 
 There's still more work to do, including finalizing the schematics, designing the PCB, programming the microcontroller, and eventually testing everything on the car.
 
-### Project Documentation
+### PDM Project Documentation
 
-- [MCU, CAN, and Power Regulation Schematics](Power%20Schematics.png)
-- [PROFET Power Switching Schematics](PROFET.png)
+- [MCU, CAN, and Power Regulation Schematics](Solid-State-PDM/Power%20Schematics.png)
+- [PROFET Power Switching Schematics](Solid-State-PDM/PROFET.png)
 
 ---
 
@@ -40,7 +40,7 @@ The project also involved designing a battery pack layout in Onshape and an init
 
 Due to changes in team priorities and budget, we had to stop working on the battery pack before it was finished. I'm keeping the work here to show the progress we made before the project was discontinued.
 
-### Project Documentation
+### LV Battery Pack Project Documentation
 
-- [LV Battery Pack CAD Design](CAD.md)
-- [Initial UART-to-CAN Converter Design](UART_CAN.md)
+- [LV Battery Pack CAD Design](LV-Battery-Pack/CAD.md)
+- [Initial UART-to-CAN Converter Design](LV-Battery-Pack/UART_CAN.md)
